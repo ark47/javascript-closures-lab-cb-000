@@ -18,6 +18,7 @@ function bumpCounter(callback) {
 }
 
 function createAnimal(animalType) {
+ 
   function deadlyDevice(weapon) {
     return weapon;
   }
