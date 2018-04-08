@@ -28,5 +28,6 @@ function createAnimal(animalType) {
   };
 }
 
+const { deadlyDevice } = createAnimal('sharkCreator')
 const sharkCreator = createAnimal('Shark');
-const sharkWithFrickinLaserbeam { sharkCreator } = ;
+const sharkWithFrickinLaserbeam { sharkCreator, deadlyDevice } = ;
