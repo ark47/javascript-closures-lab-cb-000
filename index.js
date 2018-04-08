@@ -1,7 +1,7 @@
-const app = "I don't do much."
+const app = "I don't do much.";
 
 function bumpCounter(callback) {
-  var counter = 0
+  var counter = 0;
 
   function addBump() {
     return counter++;
@@ -24,8 +24,8 @@ function createAnimal(animalType) {
   
   return function() {
     animalType,
-    deadlyDevice
-  }
+    deadlyDevice;
+  };
 }
 
-const sharkCreator = createAnimal('shark')
+const sharkCreator = createAnimal('shark');
