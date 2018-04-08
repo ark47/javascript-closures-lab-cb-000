@@ -23,7 +23,10 @@ function createAnimal(animalType) {
     return { animalType, weapon};
   }
   
+  return function() {
+    animalType,
+    deadlyDevice;
+  };
 }
 
 const sharkCreator = createAnimal('Shark');
-const sharkWithFrickinLaserbeam = sharkCreator('Laserbeam')
