@@ -27,3 +27,5 @@ function createAnimal(animalType) {
     deadlyDevice
   }
 }
+
+const sharkCreator = createAnimal('shark')
