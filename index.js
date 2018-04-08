@@ -30,3 +30,4 @@ function createAnimal(animalType) {
 }
 
 const sharkCreator = createAnimal('Shark');
+const sharkWithFrickinLaserbeam = sharkCreator('Laserbeam')
