@@ -28,4 +28,4 @@ function createAnimal(animalType) {
   };
 }
 
-const sharkCreator = createAnimal('shark');
+const sharkCreator = createAnimal('Shark');
